@@ -6,9 +6,10 @@ export class Model{
         this.user = "Çınar";
         this.items = [
             new TodoItem("spor",false),
-            new TodoItem("kahvaltı",false),
+            new TodoItem("kahvaltı",true),
             new TodoItem("kitap okuma",false),
-            new TodoItem("sinema",false),
+            new TodoItem("sinema",true),
+            new TodoItem("bakım",false),
           ];
     }
 }
